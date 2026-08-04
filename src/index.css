@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,400;0,600;1,500&family=IBM+Plex+Mono:wght@400;500&family=Inter:wght@400;500;600&display=swap');
+
+:root {
+  --color-bg: #FDFDFB;
+  --color-ink: #14201B;
+  --color-forest: #0B3D2E;
+  --color-emerald: #1F9D6B;
+  --color-mist: #EAF2ED;
+  --color-gold: #C9A227;
+
+  --font-display: 'Newsreader', serif;
+  --font-mono: 'IBM Plex Mono', monospace;
+  --font-body: 'Inter', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--color-bg);
+  color: var(--color-ink);
+  font-family: var(--font-body);
+  line-height: 1.6;
+}
+
+h1, h2, h3 {
+  font-family: var(--font-display);
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+a {
+  color: var(--color-emerald);
+  text-decoration: none;
+}
+
+.page {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 60px 24px;
+}
