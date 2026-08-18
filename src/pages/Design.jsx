@@ -133,6 +133,7 @@ function Design() {
       category: "Church",
       image: church3Img,
     },
+    
     {
       category: "Church",
       image: church4Img,
