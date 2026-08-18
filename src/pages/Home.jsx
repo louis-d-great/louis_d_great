@@ -1,4 +1,5 @@
 import MarqueeTape from "./MarqueeTape"
+import louisPhotoImg from "../images/louis-photo.png"
 
 function Home() {
   return (
@@ -41,9 +42,10 @@ function Home() {
 
         <div className="hero-photo-frame fade-in delay-6">
           <span className="photo-badge">Frontend Developer · Building in Public</span>
-          <img src="src/images/louis-photo.png" alt="Louis" className="hero-photo" />
+
+          <img src={louisPhotoImg} alt="Louis" className="hero-photo"/>
         </div>
-        
+
       </section>
         
       <MarqueeTape/>

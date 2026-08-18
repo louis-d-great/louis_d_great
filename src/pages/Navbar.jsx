@@ -2,13 +2,14 @@ import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import Sidebar from './Sidebar.jsx'
 import './Navbar.css'
+import logoImg from "../images/mylogo-original.png"
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false)
 
   return (
     <nav className="navbar">
-      <Link to="/" className="logo"><img src='/src/images/mylogo-original.png' 
+      <Link to="/" className="logo"><img src={logoImg} 
         style={{
         width: "130px"
         }}/>
