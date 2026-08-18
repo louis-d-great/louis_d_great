@@ -1,35 +1,26 @@
 function About() {
   return (
     <div className="page about">
-      <h1>The Why</h1>
+      <span className="eyebrow">the why</span>
+      <h1>From governance essays to git commits</h1>
 
-      <section className="about-block">
-        <p>
-          I studied Political Science at the University of Ibadan. Somewhere
-          between essays on governance and late nights arguing about Nigerian
-          politics, I started writing for Web3 projects — threads, articles,
-          brand narratives. That's where I found out I liked building things
-          people actually read.
-        </p>
-      </section>
+      <p className="about-lede">
+        I studied Political Science at the University of Ibadan. My early work was shaped by questions around governance, society and Nigeria's political landscape. Outside the classroom, I began writing for technology and blockchain projects, creating threads, articles and brand narratives around ideas that were often difficult to explain simply.
 
-      <section className="about-block">
-        <p>
-          Writing led me to the internet's infrastructure — how things get
-          built, not just talked about. So I picked up frontend development
-          at Aptech, and I'm learning product design on the side. Not a full
-          reset, more like adding a second language to a story I was already
-          telling.
-        </p>
-      </section>
+        <br/><br/>
+        That work gave me a deeper interest in the internet itself. I wanted to understand how the products and platforms I was writing about were built, so I began learning frontend development at Aptech and exploring product design alongside it.
+       
+        <br/><br/>
+        Today, I work across writing, design and the web. My background helps me approach technology from more than one angle: how it works, how people experience it and how its ideas are communicated.
+      </p>
 
-      <section className="about-block">
-        <p>
-          The goal isn't to pick one lane. It's to build a media brand at the
-          intersection of Web3, tech, and Nigeria's digital economy — where
-          the writing and the code work together instead of competing.
-        </p>
-      </section>
+      <blockquote className="about-pullquote">
+        What started as a way to communicate ideas became a curiosity about how those ideas are built.
+      </blockquote>
+
+      <p className="about-lede">
+        I'm interested in the people and products shaping Africa's digital future, particularly across technology, emerging internet products and the wider digital economy.
+      </p>
     </div>
   )
 }

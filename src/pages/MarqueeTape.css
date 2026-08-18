@@ -1,0 +1,34 @@
+.marquee {
+  background-color: var(--color-forest);
+  overflow: hidden;
+  padding: 16px 0;
+  white-space: nowrap;
+}
+
+.marquee-track {
+  display: inline-flex;
+  animation: scroll-left 20s linear infinite;
+}
+
+.marquee-item {
+  font-family: var(--font-mono);
+  font-size: 1rem;
+  color: #FDFDFB;
+  padding: 0 20px;
+  display: inline-flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.marquee-dot {
+  color: var(--color-gold);
+}
+
+@keyframes scroll-left {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
