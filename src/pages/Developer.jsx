@@ -16,7 +16,7 @@ function ProjectCard({ project }) {
 }
 import orbitImg from "../images/Orbit.png"
 import movieImg from "../images/Movie.png"
-import weatherImg from "../images/weather.png"
+import weatherImg from "../images/Weather.png"
 import nexcentImg from "../images/Nexcent.png"
 import switchImg from "../images/switch2.png"
 
